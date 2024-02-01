@@ -35,7 +35,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  jitsi_meet_flutter_sdk: ^0.1.8
+  webview_flutter: ^4.4.2
+  permission_handler: ^11.0.1
+  plugin_platform_interface: ^2.1.7
+  flutter_inappwebview: ^5.8.0
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +56,19 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/5.png
+    - assets/6.png
+    - assets/7.png
+    - assets/8.png
+    - assets/9.png
+    - assets/10.png
+    - assets/11.png
+    - assets/12.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
